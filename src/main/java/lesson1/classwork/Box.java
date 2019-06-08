@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.classwork;
 
 public class Box {
     private Object obj;

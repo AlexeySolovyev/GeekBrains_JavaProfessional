@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1.classwork;
 
 public class BoxUltimate<T> {
     private T obj;
@@ -33,9 +33,9 @@ class MainUltimate {
 //        x += (Integer) wIn.getObj();
 //        System.out.println(x);
 
-        int x = 10;
-        x += wSt.getObj();
-        System.out.println(x);
+//        int x = 10;
+//        x += wSt.getObj();
+//        System.out.println(x);
     }
 }
 
