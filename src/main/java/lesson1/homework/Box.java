@@ -5,13 +5,13 @@ import lesson1.homework.fruits.Fruit;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Box <T extends Fruit> {
+public class Box<T extends Fruit> {
 
-    private List <T>fruitsList  = new ArrayList<>();
+    private List<T> fruitsList = new ArrayList<>();
 
-    public void addFruit (T fruit){
+    public void addFruit(T fruit) {
         fruitsList.add(fruit);
-    };
+    }
 
     public List<T> getFruitsList() {
         return this.fruitsList;
@@ -33,5 +33,4 @@ public class Box <T extends Fruit> {
     public boolean compare(Box<? extends Fruit> fruitBox) {
         return Math.abs(this.getWeight() - fruitBox.getWeight()) < 0.001;
     }
-
 }
